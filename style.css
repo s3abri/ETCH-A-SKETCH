@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+#container {
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.cell {
+    background-color: white;
+    border: 1px none gray;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+    margin-top: -4px;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#btn-reset {
+    border-radius: 2px;
+    margin-left: 41%;
+    background-color: blue;
+}
+
+#btn-start {
+    border-radius: 2px;
+    margin-left: 1%;
+    background-color: green;
+}
